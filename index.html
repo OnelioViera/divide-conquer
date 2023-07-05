@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divide and Conquer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--countZeros -->
+    <div class="container mt-5">
+        <h1>Problem Solving</h1>
+        <p class="h3">Divide and Conquer 22.6</p>
+        <hr>
+    </div>
+    <div class="container mb-5">
+        <h2>countZeros</h2>
+        <div class="row">
+            <div class="col-4">
+
+                <p class="h5">Constraints:</p>
+                <p>Time Complexity: O(log N)</p>
+                <P>Example:</P>
+                countZeroes([1, 1, 1, 1, 0, 0]) // 2<br>
+                countZeroes([1, 0, 0, 0, 0]) // 4<br>
+                countZeroes([0, 0, 0]) // 3<br>
+                countZeroes([1, 1, 1, 1]) // 0
+            </div>
+            <div class="col-8">
+                <p class="h5 mb-3">Test Results:</p>
+                <img src="/static/count-zeroes.test.js.png" class="w-75" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- sortedFrequency -->
+    <div class="container mb-5">
+        <h2>sortedFrequency</h2>
+        <div class="row">
+            <div class="col-4">
+
+                <p class="h5">Constraints:</p>
+                <p>Time Complexity: O(log N)</p>
+                <P>Example:</P>
+                sortedFrequency([1, 1, 2, 2, 2, 2, 3], 2) // 4<br>
+                sortedFrequency([1, 1, 2, 2, 2, 2, 3], 3) // 1<br>
+                sortedFrequency([1, 1, 2, 2, 2, 2, 3], 1) // 2<br>
+                sortedFrequency([1, 1, 2, 2, 2, 2, 3], 4) // -1
+            </div>
+            <div class="col-8">
+                <p class="h5 mb-3">Test Results:</p>
+                <img src="/static/sort-frequency.test.js.png" class="w-75" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- findRotatedIndex -->
+    <div class="container mb-5">
+        <h2>findRotatedIndex</h2>
+        <div class="row">
+            <div class="col-4">
+
+                <p class="h5">Constraints:</p>
+                <p>Time Complexity: O(log N)</p>
+                <P>Example:</P>
+                findRotatedIndex([3,4,1,2],4) // 1
+                findRotatedIndex([6, 7, 8, 9, 1, 2, 3, 4], 8) // 2<br>
+                findRotatedIndex([6, 7, 8, 9, 1, 2, 3, 4], 3) // 6<br>
+                findRotatedIndex([37,44,66,102,10,22],14) // -1<br>
+                findRotatedIndex([6, 7, 8, 9, 1, 2, 3, 4], 12) // -1
+            </div>
+            <div class="col-8">
+                <p class="h5 mb-3">Test Results:</p>
+                <img src="/static/find-rotated-index.text.png" class="w-75" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- findRotationCount -->
+    <div class="container mb-5">
+        <h2>findRotationCount</h2>
+        <div class="row">
+            <div class="col-4">
+
+                <p class="h5">Constraints:</p>
+                <p>Time Complexity: O(log N)</p>
+                <P>Example:</P>
+                findRotationCount([15, 18, 2, 3, 6, 12]) // 2
+                findRotationCount([7, 9, 11, 12, 5]) // 4<br>
+                findRotationCount([7, 9, 11, 12, 15]) // 0
+            </div>
+            <div class="col-8">
+                <p class="h5 mb-3">Test Results:</p>
+                <img src="/static/find-rotation-count.test.js.png" class="w-75" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- findFloor -->
+    <div class="container mb-5">
+        <h2>findFloor</h2>
+        <div class="row">
+            <div class="col-4">
+
+                <p class="h5">Constraints:</p>
+                <p>Time Complexity: O(log N)</p>
+                <P>Example:</P>
+                findFloor([1, 2, 8, 10, 10, 12, 19], 9) // 8
+                findFloor([1, 2, 8, 10, 10, 12, 19], 20) // 19<br>
+                findFloor([1, 2, 8, 10, 10, 12, 19], 0) // -1
+            </div>
+            <div class="col-8">
+                <p class="h5 mb-3">Test Results:</p>
+                <img src="/static/find-floor.test.js.png" class="w-75" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <p>Copyright @ 2023: Onelio Viera</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
