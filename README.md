@@ -1,2 +1,1 @@
 # divide-conquer
-# divide-conquer
